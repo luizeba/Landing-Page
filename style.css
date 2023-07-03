@@ -84,7 +84,7 @@ h1 {
     background-color: lightpink;
     color: darkmagenta;
     flex-wrap: wrap;
-    padding: 20px 5vw;
+    padding: 30px 5vw;
     align-items: flex-start;
     gap: 20px;
 }
@@ -92,6 +92,8 @@ h1 {
 .team h2 {
     flex: 1 1 100%;
     text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0;
 }
 
 .teamCard {
@@ -112,7 +114,7 @@ h1 {
     background-color: darkmagenta;
     color: lightpink;
     flex-wrap: wrap;
-    padding: 20px 5vw;
+    padding: 30px 5vw;
     justify-content: center;
     align-items: center;
 }
