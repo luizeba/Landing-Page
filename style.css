@@ -28,7 +28,9 @@ header {
     background-color: darkmagenta;
     color: lightpink;
     flex-wrap: wrap;
-    padding: 10px 20px;
+    padding: 20px 5vw;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .nav {
@@ -45,15 +47,19 @@ header {
 
 .logo {
     margin-right: auto;
+    height: auto;
+    width: auto;
+    flex: 0 1 auto;
 }
 
 .signup, .mainImage {
     display: flex;
-    flex: 1 1 50%;
+    flex: 1 1 40%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 h1 {
@@ -78,9 +84,9 @@ h1 {
     background-color: lightpink;
     color: darkmagenta;
     flex-wrap: wrap;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 5vw;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .team h2 {
@@ -89,19 +95,24 @@ h1 {
 }
 
 .teamCard {
-    flex: 1 1 25%;
+    flex: 1 1 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .teamCard img {
     width: 150px;
     height: auto;
+    border: 1px groove #4666FF;
 }
 
 .quote {
     background-color: darkmagenta;
     color: lightpink;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 5vw;
     justify-content: center;
     align-items: center;
 }
