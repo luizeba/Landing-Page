@@ -42,7 +42,7 @@ header {
 }
 
 .nav a {
-    color: white;
+    color: lightpink;
     text-decoration: none;
 }
 
@@ -63,9 +63,11 @@ header {
     padding: 10px;
 }
 
+
 h1 {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .visitNow {
@@ -170,6 +172,7 @@ h1 {
 
 .actionText {
     flex: 0 1 60%;
+    text-align: justify;
 }
 
 footer {
